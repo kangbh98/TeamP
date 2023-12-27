@@ -1,19 +1,19 @@
 spring:
   datasource:
-    password: password
-    url: jdbc:mysql://localhost:3306/sales
+    password: Kangbh98!
+    url: jdbc:mysql://localhost:3306/HackatonP?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
 
   security:
     oauth2:
       client:
         registration:
          google:
-          clientId: YOUR_GOOGLE_CLIENT_ID
-          clientSecret: YOUR_GOOGLE_CLIENT_SECRET
+          clientId: 589018407552-o30r738n78kj1k5f7btcjjbmkdtkte1u.apps.googleusercontent.com
+          clientSecret: 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
           scope:
            - email
            - profile

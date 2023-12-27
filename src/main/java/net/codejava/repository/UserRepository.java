@@ -1,5 +1,6 @@
-package net.codejava;
+package net.codejava.repository;
 
+import net.codejava.entity.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

@@ -1,5 +1,7 @@
 package net.codejava;
 
+import net.codejava.entity.User;
+import net.codejava.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
